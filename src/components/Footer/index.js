@@ -59,7 +59,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrapper>
             <SocialLogo to='/' onClick={toggleHome}>
-            <img src={kitchenGeniusLogo} alt="Kitchen Genius Logo" style={{ width: '100px', height: '100px' }} /> {/* Your custom logo image */}
+            <img src={kitchenGeniusLogo} alt="Kitchen Genius Logo" style={{ width: '150px', height: '150px' }} /> {/* Your custom logo image */}
             </SocialLogo>
             <WebsiteRights>logo © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>

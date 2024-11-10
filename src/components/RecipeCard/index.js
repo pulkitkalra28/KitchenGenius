@@ -150,7 +150,6 @@ const Container = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 55px;
-  margin-bottom: 50px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 `;

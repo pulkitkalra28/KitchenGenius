@@ -30,14 +30,14 @@ const Navbar = ({ toggle }) => {
           <NavbarContainer>
             {/* Logo: Click to scroll to the top */}
             <NavLogo to='/' onClick={toggleHome}>
-              <img src={kitchenGeniusLogo} alt="Kitchen Genius Logo" style={{ width: '60px', height: '60px' }} /> {/* Your custom logo image */}
+              <img src={kitchenGeniusLogo} alt="Kitchen Genius Logo" style={{ width: '80px', height: '80px', marginBottom: '20px' }} /> {/* Your custom logo image */}
             </NavLogo>
             {/* Menu Icon: Replace with custom image */}
             <MenuIcon onClick={toggle}>
               <img 
                 src={kitchenGeniusLogo} 
                 alt="Kitchen Genius Logo" 
-                style={{ width: '60px', height: '60px' }} 
+                style={{ width: '80px', height: '80px', marginBottom: '20px' }} 
               />
             </MenuIcon>
             <NavMenu>
