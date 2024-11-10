@@ -15,14 +15,17 @@ app = Flask(__name__)
 CORS(app, origins=["http://localhost:3000"])  # Allow requests from React on localhost:3000
 
 
-# Set your OpenAI API key here
-#openai.api_key = "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"
-
 # Dummy function for image recognition - In reality, you would use a pre-trained model
 def recognize_ingredients(image_path):
+    print("pulkittttt")
+    print(image_path)
     # For demo purposes, return a static list of ingredients
     # In real-world use, you would replace this with a model that recognizes food ingredients from the image
-    return ["chicken", "tomato", "cucumber", "onion", "olive oil", "garlic"]
+    # if image_path == 'image1':
+    return ["chicken", "onion", "olive oil", "garlic", "salt", "red pepper", "black pepper", "ginger", "onion", "turmeric"]
+    # else:
+        # return ["bread", "mayonnaise", "tomato", "onion", "avocado", "cucumber", "carrot", "lettuce", "cheese"]
+
 
 def generate_recipes(ingredients):
     # Define recipe_types at the beginning to avoid UnboundLocalError
@@ -186,7 +189,10 @@ def generate_recipes_from_image():
         return jsonify({"error": "No image provided"}), 400
 
     # Get image file from request
+    print(request.files)
+    print("~~~~~~~~~~~~~~")
     image_file = request.files['image']
+    print(image_file)
     img = Image.open(image_file.stream)
 
     # Convert the image to RGB if it is in RGBA mode (for transparent images)
