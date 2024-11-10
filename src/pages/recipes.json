@@ -1,0 +1,69 @@
+{
+    "recipes": [
+      {
+        "recipeName": "Grilled Chicken Salad",
+        "recipeType": "Protein Heavy",
+        "steps": [
+          "Season the chicken breasts with salt, pepper, and olive oil.",
+          "Grill the chicken for 5-7 minutes on each side until cooked through.",
+          "Toss the salad greens, cherry tomatoes, cucumber, and red onion in a bowl.",
+          "Slice the grilled chicken and add it to the salad.",
+          "Drizzle with your favorite dressing and serve."
+        ],
+        "macros": {
+          "carbohydrates": 10,
+          "protein": 60,
+          "fats": 30
+        }
+      },
+      {
+        "recipeName": "Quinoa and Roasted Vegetables",
+        "recipeType": "High Carb",
+        "steps": [
+          "Preheat the oven to 400°F (200°C).",
+          "Chop the vegetables (zucchini, bell peppers, onions) and toss with olive oil, salt, and pepper.",
+          "Roast the vegetables for 25-30 minutes, stirring halfway through.",
+          "Cook the quinoa according to package instructions.",
+          "Combine roasted vegetables and quinoa in a large bowl, add lemon juice, and mix well."
+        ],
+        "macros": {
+          "carbohydrates": 70,
+          "protein": 10,
+          "fats": 20
+        }
+      },
+      {
+        "recipeName": "Cauliflower Rice Stir-Fry",
+        "recipeType": "Low Carb",
+        "steps": [
+          "Grate the cauliflower to make rice-sized pieces.",
+          "Heat a pan with olive oil and sauté garlic, onion, and any other vegetables you prefer.",
+          "Add the cauliflower rice and cook for 5-7 minutes, stirring occasionally.",
+          "Season with soy sauce, sesame oil, and your favorite stir-fry spices.",
+          "Garnish with green onions and serve."
+        ],
+        "macros": {
+          "carbohydrates": 12,
+          "protein": 18,
+          "fats": 70
+        }
+      },
+      {
+        "recipeName": "Spinach and Chickpea Soup",
+        "recipeType": "High Fiber",
+        "steps": [
+          "Heat olive oil in a pot and sauté onions and garlic until soft.",
+          "Add the canned chickpeas, spinach, vegetable broth, and spices.",
+          "Simmer for 15-20 minutes, letting the flavors meld together.",
+          "Blend the soup until smooth, or leave some chunks for texture.",
+          "Serve hot with a sprinkle of fresh herbs."
+        ],
+        "macros": {
+          "carbohydrates": 50,
+          "protein": 25,
+          "fats": 25
+        }
+      }
+    ]
+  }
+  

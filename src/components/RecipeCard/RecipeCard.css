@@ -1,0 +1,156 @@
+/* Basic layout for the recipe cards */
+.recipe-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for individual cards */
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for cards */
+  .card:hover {
+    transform: translateY(-5px); /* Lift the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+  }
+  
+  /* Title of the recipe */
+  .card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Recipe type (e.g., Protein Heavy, High Carb) */
+  .card p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  /* Macronutrients section */
+  .card .macros {
+    margin-bottom: 20px;
+  }
+  
+  .card .macros p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* View Recipe button styling */
+  .card button {
+    background-color: #01bf71;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #019e56;
+  }
+  
+  /* Styles for the popup */
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-out; /* Fade-in effect for popup */
+  }
+  
+  /* Popup content box */
+  .popup-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  /* Title of the recipe in the popup */
+  .popup-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Recipe type in the popup */
+  .popup-content p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Steps for the recipe */
+  .popup-content h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .popup-content ul {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  .popup-content li {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Close button styling */
+  .popup-content button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .popup-content button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Fade-in animation for the popup */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
